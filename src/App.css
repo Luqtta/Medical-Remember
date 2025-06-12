@@ -1,0 +1,20 @@
+.custom-toast {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+
+.custom-progress {
+  background: var(--toastify-color-progress-light);
+}
+
+.Toastify__toast--success .custom-progress {
+  background: #22c55e !important; 
+}
+.Toastify__toast--error .custom-progress {
+  background: #ef4444 !important;
+}
+.Toastify__toast--warning .custom-progress {
+  background: #facc15 !important; 
+}

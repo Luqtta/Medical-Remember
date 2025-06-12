@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-no-repeat bg-cover bg-center min-h-screen;
+  color: #1f2937;
+}
+
+.phone-input-placeholder::placeholder {
+  @apply text-gray-400 transition-colors;
+}
+
+.group:hover .phone-input-placeholder::placeholder {
+  @apply text-blue-400;
+}
