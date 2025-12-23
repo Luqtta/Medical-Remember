@@ -12,7 +12,7 @@
 
 ## 🛠 Tecnologias Utilizadas
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: TypeScript, JavaScript
 - **Backend**: Node.js, Express.js
 - **Banco de Dados**: MongoDB
 - **Notificações**: Twilio WhatsApp API
